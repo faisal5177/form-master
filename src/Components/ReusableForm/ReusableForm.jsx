@@ -13,7 +13,7 @@ const ReusableForm = ({formTitle, handleSubmit, submitBtnText = 'Submit', childr
 
     return (
         <div>
-        <h2>{formTitle}</h2>
+        {children}
         <form onSubmit={handleLocalSubmit}>
             <input type="text" name="name" />
             <br />
